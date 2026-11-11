@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c2eae4;
+  padding: 0.625rem 1.875rem;
+  height: 4.375rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+.header-logo {
+  height: 3.125rem;
+  width: auto;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #0f2c7a;
+}
+
+.header-right {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #0f2c7a;
+  background-color: #f3f4f6;
+  padding: 0.5rem 0.9375rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
