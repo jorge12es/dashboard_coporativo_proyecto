@@ -1,11 +1,9 @@
 import { useState } from 'react';
-import logo from '../assets/jota_letra.png'; 
+import logo from '../assets/jota_letra.png';
 import '../styles/Header.css';
 
 export function Header() {
-
   const [hora, setHora] = useState(() => new Date().toLocaleTimeString());
-
 
   const intervalo = setInterval(() => {
     setHora(new Date().toLocaleTimeString());
@@ -19,7 +17,6 @@ export function Header() {
       </div>
 
       <div className="header-right">
-        {}
         {hora}
       </div>
     </header>
